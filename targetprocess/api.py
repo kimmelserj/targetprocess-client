@@ -41,6 +41,7 @@ class MetaAPI(type):
     RESOURCES = (
         ('story', 'UserStories'),
         ('bug', 'Bugs'),
+        ('comment', 'Comments'),
         ('project', 'Projects'),
         ('release', 'Releases'),
         ('role_effort', 'RoleEfforts'),
@@ -49,6 +50,7 @@ class MetaAPI(type):
     COLLECTIONS = (
         ('stories', 'UserStories'),
         ('bugs', 'Bugs'),
+        ('comments', 'Comments'),
         ('projects', 'Projects'),
         ('releases', 'Releases'),
         ('iterations', 'TeamIterations'),
